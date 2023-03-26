@@ -22,4 +22,4 @@ def CFB(message, IV="0b10"):
         print(xor)
 
 
-print(CFB(message))
+CFB(message)
